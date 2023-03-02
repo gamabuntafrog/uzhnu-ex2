@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<main>
+  <section>
+    <h2>Реєстрація</h2>
+    <form method="post" >
+      <label for="login">
+        Логін
+      </label>
+      <input name="login" type="text" id="login">
+      <label for="password">
+        Пароль
+      </label>
+      <input name="password" type="password" id="password">
+      <label for="repeatPassword">
+        Повторити пароль
+      </label>
+      <input name="repeatPassword" type="password" id="repeatPassword">
+      <label for="tel">
+        Номер телефону
+      </label>
+      <input name="tel" type="tel" id="tel" placeholder="+380">
+      <label for="avatar">
+        Аватар
+      </label>
+      <input name="avatar" type="file" id="avatar">
+      <label for="checkbox">
+        Згода з умовами
+      </label>
+      <input name="agree" id="checkbox" type="checkbox">
+      <input type="submit">
+    </form>
+  </section>
+  <section style="margin-top: 100px">
+    <h2>
+      Форма зворотнього звязку
+    </h2>
+    <form method="post" >
+      <label for="tel2">
+        Номер телефону для зворотнього звязку
+      </label>
+      <input value="підтримка" name="tel" type="tel" id="tel2" placeholder="+380">
+      <label for="category1">
+        Підтримка
+      </label>
+      <input value="побажання" name="category" id="category1" type="radio">
+      <label for="category2">
+        Побажання
+      </label>
+      <input value="скарга" name="category" id="category2" type="radio">
+      <label for="category3">
+        Скарга
+      </label>
+      <input name="category" id="category3" type="radio">
+      <textarea name="message" style="display: block" placeholder="повідомлення"></textarea>
+      <input accept="image/jpeg" name="file" id="file" placeholder="Прикріпити файл" type="file">
+      <input type="submit">
+
+    </form>
+  </section>
+</main>
+</body>
+</html>
